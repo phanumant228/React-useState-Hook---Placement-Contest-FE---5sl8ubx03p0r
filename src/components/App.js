@@ -4,7 +4,12 @@ import React, { useState } from 'react';
 
 export default function App() {
  //code here 
-
+const [inputValue, setInputValue]=useState("");
+function buttonClick(){
+ setInputValue(inputValue)=filter.inputValue((ele, index)=>{
+ 
+ })
+}
  
   return (
     <div>
